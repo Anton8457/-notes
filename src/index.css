@@ -1,0 +1,110 @@
+body {
+ background-image: url(../public/crismas.jpg);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.main {
+  width: 500px; /* ширина */
+  margin: 0 auto; /* центрування блоку */
+  padding: 10px 30px;
+  border: 4px dotted rgb(255, 0, 212);
+  border-radius: 10px;
+  background-color: rgb(32, 165, 218);
+
+}
+
+.title {
+  font-size: 24px;
+  color: rgb(210, 177, 30);
+}
+
+.title:hover {
+  font-size: 24px;
+  color: rgb(15, 34, 207);
+  text-decoration: underline black;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.tusk {
+  display: flex;
+  justify-content:space-between ;/* горизонтально - по краям */
+  align-items: center; /* вертикально - по центру */
+  border-bottom: 1px solid rgb(0, 0, 0); /* нижня рамка пыд задачею */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  font-size: 14px;
+
+  transition: all 0.3s; /* плавна анімація */
+}
+
+.btnlist {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  font-size: 14px;
+
+  transition: all 0.3s; /* плавна анімація */
+}
+
+.btn:hover {
+  background-color: rgb(41, 211, 38);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-decoration: underline black 2px;
+   
+  transition: background-color 0.3s ease, color 0.3s eas
+}
+
+.btnlist:hover {
+  background-color: rgb(211, 49, 38);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-decoration: underline black 2px;
+   
+  transition: background-color 0.3s ease, color 0.3s eas
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: rgb(192, 192, 192);
+  letter-spacing: 2px;
+}
+
+.complete {
+color: rgb(0, 0, 0);
+text-decoration: line-through;
+}
+
