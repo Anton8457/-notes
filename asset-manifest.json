@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Anton8457/-notes.git/static/css/main.cbae0bd6.css",
+    "main.js": "/Anton8457/-notes.git/static/js/main.606c0fc5.js",
+    "static/js/787.8eb42f38.chunk.js": "/Anton8457/-notes.git/static/js/787.8eb42f38.chunk.js",
+    "static/media/crismas.jpg": "/Anton8457/-notes.git/static/media/crismas.177dc5dd14c9557b87e0.jpg",
+    "index.html": "/Anton8457/-notes.git/index.html",
+    "main.cbae0bd6.css.map": "/Anton8457/-notes.git/static/css/main.cbae0bd6.css.map",
+    "main.606c0fc5.js.map": "/Anton8457/-notes.git/static/js/main.606c0fc5.js.map",
+    "787.8eb42f38.chunk.js.map": "/Anton8457/-notes.git/static/js/787.8eb42f38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbae0bd6.css",
+    "static/js/main.606c0fc5.js"
+  ]
+}
